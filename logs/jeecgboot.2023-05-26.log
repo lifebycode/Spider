@@ -1,0 +1,12 @@
+2023-05-26 11:09:36.868 [main] INFO  com.spider.wechat.news.NewsApplication:55 - Starting NewsApplication v0.0.1-SNAPSHOT on FC002954D with PID 13896 (J:\LocalProjects\news\target\spider-server.jar started by 002954 in J:\LocalProjects\news\target)
+2023-05-26 11:09:36.873 [main] INFO  com.spider.wechat.news.NewsApplication:651 - No active profile set, falling back to default profiles: default
+2023-05-26 11:09:38.751 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-05-26 11:09:38.911 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1957 ms
+2023-05-26 11:09:39.003 [main] INFO  com.spider.wechat.news.config.CacheConfig:31 - 去重线程池淘汰任务创建成功
+2023-05-26 11:09:39.043 [main] INFO  com.spider.wechat.news.job.SpiderJob:35 - 开始执行定时任务
+2023-05-26 11:09:39.047 [pool-2-thread-1] INFO  com.spider.wechat.news.service.krRecordService:54 - 开是36氪爬取,时间:2023-05-26 11:09:39
+2023-05-26 11:09:39.286 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-26 11:09:39.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-26 11:09:39.766 [main] INFO  com.spider.wechat.news.NewsApplication:61 - Started NewsApplication in 3.737 seconds (JVM running for 4.452)
+2023-05-26 11:09:40.080 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-26 11:09:40.082 [SpringContextShutdownHook] INFO  com.spider.wechat.news.job.SpiderJob:50 - 结束定时任务
